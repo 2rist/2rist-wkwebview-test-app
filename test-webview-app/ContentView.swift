@@ -10,10 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+           
+
+            // Add WebView
+            WebView(url: URL(string: "https://app.klarna.com/login")!)
+                .frame(height: 700) // Set the frame height as needed
         }
         .padding()
     }

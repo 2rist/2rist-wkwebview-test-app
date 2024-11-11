@@ -14,6 +14,7 @@
 		3243A53C2C923ED000B9B6A6 /* test_webview_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243A53B2C923ED000B9B6A6 /* test_webview_appTests.swift */; };
 		3243A5462C923ED000B9B6A6 /* test_webview_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243A5452C923ED000B9B6A6 /* test_webview_appUITests.swift */; };
 		3243A5482C923ED000B9B6A6 /* test_webview_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243A5472C923ED000B9B6A6 /* test_webview_appUITestsLaunchTests.swift */; };
+		3243A5552C923F2A00B9B6A6 /* webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243A5542C923F2A00B9B6A6 /* webview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3243A5412C923ED000B9B6A6 /* test-webview-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-webview-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3243A5452C923ED000B9B6A6 /* test_webview_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_webview_appUITests.swift; sourceTree = "<group>"; };
 		3243A5472C923ED000B9B6A6 /* test_webview_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_webview_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3243A5542C923F2A00B9B6A6 /* webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				3243A52C2C923ECE00B9B6A6 /* ContentView.swift */,
 				3243A52E2C923ECF00B9B6A6 /* Assets.xcassets */,
 				3243A5302C923ECF00B9B6A6 /* Preview Content */,
+				3243A5542C923F2A00B9B6A6 /* webview.swift */,
 			);
 			path = "test-webview-app";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3243A52D2C923ECE00B9B6A6 /* ContentView.swift in Sources */,
+				3243A5552C923F2A00B9B6A6 /* webview.swift in Sources */,
 				3243A52B2C923ECE00B9B6A6 /* test_webview_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"test-webview-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 798F348P4Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"test-webview-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 798F348P4Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
